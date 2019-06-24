@@ -117,3 +117,42 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+  @media (max-width:900px) {
+    /* .page{
+      max-width: 900px;
+    } */
+    
+    .nav{
+      width: 100%;
+      /* margin-right: 5%; */
+      display: flex;
+      justify-content:flex-start;
+      text-align: center;
+    }
+    /* .nav li{
+      display: flex;
+      width: 100%;
+    } */
+    /* .main{
+      width: 50%;
+    } */
+    body{
+      width: 90%;
+      /* padding-left: -10px; */
+      
+
+    }
+    .main{
+      padding-left: 10px;
+
+    }
+    p{
+      width: 140%;
+      /* padding-left: 10px; */
+      
+      
+    }
+  
+      
+  
+  }
