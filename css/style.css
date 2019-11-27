@@ -117,3 +117,44 @@ a {
     margin-right: 15px;
     padding-right: 15px;
   }
+@media(max-width: 900px){
+
+
+    .nav {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      text-align: center;
+    }
+    .nav a {
+      flex-direction: row;
+    }
+    .main{
+      width: 65%;
+      margin-left: 5%;
+    }
+  }
+
+  /* Another Solution */
+  /* @media screen and (max-width: 800px) {
+    .nav {
+      float: none;
+      margin: 0;
+      overflow: auto;
+      width: auto;
+    }
+  
+    .nav li {
+      border-right: 1px solid #900;
+      display: inline-block;
+      float: left;
+    }
+  
+    .main {
+      float: none;
+      margin: 0;
+      padding: 0 20px;
+      width: auto;
+    }
+  } */
+  
